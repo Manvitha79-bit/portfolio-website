@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>Manvitha Portfolio</h2>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <h1>Hello, I'm Manvitha 👋</h1>
+    <p>BCA Student | Web Developer | Tech Enthusiast</p>
+</section>
+
+<div class="container">
+
+<!-- ABOUT -->
+<section class="card">
+    <h2>About Me</h2>
+    <p>
+        I am a BCA student passionate about building websites and applications.
+        I enjoy learning new technologies and improving my coding skills.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section class="card">
+    <h2>Skills</h2>
+
+    <div class="skill">
+        <p>HTML</p>
+        <div class="bar"><div style="width:90%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>Python</p>
+        <div class="bar"><div style="width:80%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>JavaScript</p>
+        <div class="bar"><div style="width:70%"></div></div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="card">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>A personal website built using HTML, CSS, JS and Flask.</p>
+    </div>
+
+    <div class="project">
+        <h3>Age Calculator</h3>
+        <p>Python Flask app to calculate age and milestones.</p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="card">
+    <h2>Contact Me</h2>
+
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <textarea id="message" placeholder="Your Message"></textarea>
+
+    <button onclick="submitForm()">Send Message</button>
+
+    <p id="response"></p>
+</section>
+
+</div>
+
+<footer>
+    <p>© 2026 Manvitha | All Rights Reserved</p>
+</footer>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>

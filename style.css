@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+nav {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.skill .bar {
+    background: #ddd;
+    border-radius: 20px;
+    height: 10px;
+}
+
+.skill .bar div {
+    background: #667eea;
+    height: 10px;
+    border-radius: 20px;
+}
+
+.project {
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #667eea;
+    color: white;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
